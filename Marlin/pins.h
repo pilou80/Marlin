@@ -447,7 +447,7 @@
 
 #if DISABLED(USE_YMAX_PLUG)
   #undef Y_MAX_PIN
-  #define Y_MAX_PIN          -1
+  #define Y_MAX_PIN          3
 #endif
 
 #if DISABLED(USE_ZMAX_PLUG)
@@ -457,7 +457,7 @@
 
 #if DISABLED(USE_XMIN_PLUG)
   #undef X_MIN_PIN
-  #define X_MIN_PIN          -1
+  #define X_MIN_PIN          2
 #endif
 
 #if DISABLED(USE_YMIN_PLUG)
@@ -467,7 +467,7 @@
 
 #if DISABLED(USE_ZMIN_PLUG)
   #undef Z_MIN_PIN
-  #define Z_MIN_PIN          -1
+  #define Z_MIN_PIN          15
 #endif
 
 //
